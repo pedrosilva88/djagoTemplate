@@ -30,7 +30,7 @@ Install
     ```
 
 * Install the requirements
-```
-pip install -r requirements/local.txt
-```
+    ``
+    pip install -r requirements/local.txt
+    ``
 
