@@ -3,7 +3,11 @@ Install
 
 * Open terminal
 
-* Go to the path you want create the project
+* Go to the path you want create the project and create a folder
+
+  ```
+  mkdir {{ project_name }} && cd {{ project_name }}
+  ```
 
 * Create a virtual machine
 
@@ -20,7 +24,7 @@ Install
 * Create the project
 
     ```
-    django-admin.py startproject --template=https://github.com/pedrosilva88/djagoTemplate/archive/master.zip -- extension=py,rst,html {{ project_name }}
+    django-admin.py startproject --template=https://github.com/pedrosilva88/djagoTemplate/archive/master.zip --extension=py,rst,html {{ project_name }}
     ```
 
 * Enter in the Prject folder
@@ -33,4 +37,3 @@ Install
     ```
    pip install -r requirements/local.txt
     ```
-
