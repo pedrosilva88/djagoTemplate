@@ -37,3 +37,29 @@ Install
     ```
    pip install -r requirements/local.txt
     ```
+
+ Database
+ =========
+
+  * Open Postgres shell (You should have PostGres installed)
+
+   ```
+   sudo su - postgres
+   ```
+
+ * Create Database
+
+   ```
+   CREATE DATABASE {{ project_name }};
+   ```
+
+ * Create User to manage database
+
+   ```
+
+   CREATE USER {{ username }} WITH PASSWORD '{{ password }}';
+   ALTER ROLE {{ username }} SET client_encoding TO 'utf8';
+   ALTER ROLE {{ username }} SET default_transaction_isolation TO 'read committed';
+   ALTER ROLE {{ username }} SET timezone TO 'UTC';
+   exit
+   ```
