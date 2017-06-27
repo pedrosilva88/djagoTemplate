@@ -30,10 +30,5 @@ Install
     ```
 
 * Install the requirements
-
 ```
-    // If Debug
-        pip install -r requirements/local.txt
-    // If Prod
-        pip install -r requirements.txt
-```
+        pip install -r requirements/local.txt
