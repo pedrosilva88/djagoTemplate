@@ -61,5 +61,5 @@ Install
    ALTER ROLE {{ username }} SET client_encoding TO 'utf8';
    ALTER ROLE {{ username }} SET default_transaction_isolation TO 'read committed';
    ALTER ROLE {{ username }} SET timezone TO 'UTC';
-   exit
+   \q
    ```
