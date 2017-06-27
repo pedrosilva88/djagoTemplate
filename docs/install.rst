@@ -63,3 +63,16 @@ Install
    ALTER ROLE {{ username }} SET timezone TO 'UTC';
    \q
    ```
+
+ Start Project
+ ============
+
+  ```
+
+  python manage.py migrate
+  python manage.py createsuperuser
+  python manage.py runserver
+  
+  ```
+
+
